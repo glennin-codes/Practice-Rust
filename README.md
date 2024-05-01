@@ -11,7 +11,7 @@ Welcome to the Rust Problem Solutions repository! Here, you can find solutions t
    **Solution Explanation:**
 
    - This solution defines a function `first_word` that takes a reference to a string (`&String`) and returns a reference to a slice of bytes (`&[u8]`) representing the first word in the string.
-   - This solution utilizes the `FromUtf8 trait`, `slice`, and `bytes` to achieve the desired functionality.
+   - This solution utilizes the `FromUtf8 trait`, `slice`,  `bytes` and `match Result` to achieve the desired functionality.
    
  2 .  
 
