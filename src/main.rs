@@ -1,7 +1,7 @@
 use std::str::from_utf8;
 fn first_word(s: &String) -> &[u8]{
  
- let bytes = s.as_bytes();
+ let bytes: &[u8] = s.as_bytes();
  for (i, &item) in bytes.iter().enumerate() {
   if item == b' ' {
   println!("found a space at position : {}",i);
